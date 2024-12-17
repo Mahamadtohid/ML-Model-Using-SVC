@@ -1,0 +1,176 @@
+html{
+    /*background: #000000; 
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);*/
+
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000000;  /* fallback for old browsers */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: #333;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 1rem;
+}
+
+.Myimg {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    transition: transform 0.3s; /* Add transition for image hover */
+}
+
+.Myimg:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #3c3c3c;
+}
+
+.result-section {
+    margin-top: 30px;
+    border-top: 2px solid #007bff;
+    padding-top: 20px;
+}
+.result-section ul {
+list-style-position: inside; /* Makes bullets inside the box */
+padding-left: 0; /* Remove left padding */
+items-align:center
+}
+
+.result-section li {
+padding-left: 1.5em; /* Adds space between bullet and text */
+text-align: left; /* Aligns text to the left */
+items-align:center
+}
+
+.bg-custom {
+animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+from {
+    opacity: 0;
+    transform: translateY(50px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+body {
+    background: #757F9A;  /* fallback for old browsers */
+    background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 30px;
+/*background :
+color:background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+#   url(./static/robo_with_doc.png),
+#  url(./static/robo_with_doc.png);
+# background-size: cover;*/
+}
+
+h1.medica-title {
+color: #2d3436;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family: var(--body-font-family);
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+/* Form Container */
+.bg-custom {
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-color: #000000;
+border-width: 2px;
+border-radius: 10px;
+padding: 30px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Adding depth with shadow */
+}
+
+/* Label Styling */
+.form-label {
+color: #dfe6e9;
+font-size: 18px;
+}
+
+/* Input Field Styling */
+.symptoms-input {
+background-color: #dfe6e9;
+border: none;
+border-radius: 8px;
+padding: 12px;
+font-size: 16px;
+box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+.symptoms-input:focus {
+background-color: #ffffff;
+outline: none;
+box-shadow: 0 0 10px rgba(41, 128, 185, 0.3);
+}
+
+/* Button Styling */
+.btn-custom {
+        background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB  51%, #B993D6  100%);
+        font-family: var(--body-font-family);
+    
+    }
+ 
+
+
+.btn-custom:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+transform: translateY(-3px);
+box-shadow: 0 10px 20px rgba(108, 92, 231, 0.3); /* Button shadow on hover */
+}
+.typing-container {
+    position: relative;
+    overflow: hidden;
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+.typed-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+*{
+    font-family: var(--body-font-family);
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
